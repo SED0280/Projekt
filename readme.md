@@ -22,7 +22,7 @@ Tato metoda najde nejkratší cestu v bludišti zadaného pomocí incidenční m
 Metoda printMazePath funguje obdobně jako printMaze, kde se bludiště vypíše pomocí znaků ■ a mezery, ale v této funkci se vypíše tečka na místech s indexy z pole path.
 ### generateMaze(n,m,choice = "random")
 Tato metoda vygeneruje bludište o zadaných rozměrech n a m. Bludiště se generuje podle volby v promenné choice. Pokud není volby vybranná zvolí se volba random.
-#### volby:
+### volby:
 * random: náhodně přidává volné místa dokud bludiště nemá řešení.
 * grid: náhodně přidává volné místa do tvaru mřížky dokud bludiště nemá řešení.
 * clean: vytvoří volnou plochu bez zdí.
